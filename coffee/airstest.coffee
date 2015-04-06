@@ -1,3 +1,4 @@
+module.exports = new (require 'events').EventEmitter #!!!!!!!!!!!!!!!!!!!!!!
 mysql = require 'mysql'
 
 sql = 'SELECT * from svod_code where type=\'d\' order by code;'
